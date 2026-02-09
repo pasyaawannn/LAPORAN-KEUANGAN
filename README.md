@@ -84,10 +84,9 @@ manajemen-kas-keuangan/
 
 ---
 
-## 👤 Author
-
-Project dibuat oleh Pasya Awan Rizky Saputro (250202959)
-Untuk latihan, portofolio, dan studi kasus laporan keuangan berbasis web.
+## 👨‍💻 Author
+Developed by Pasya
+📌 Student Project | Stock Market & Web Development Enthusiast
 
 ---
 
