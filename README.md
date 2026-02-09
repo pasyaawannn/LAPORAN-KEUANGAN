@@ -90,6 +90,7 @@ manajemen-kas-keuangan/
 
 ## 🌍 Live Demo
    ```bash
+   <a href="https://pasyaawannn.github.io/LAPORAN-KEUANGAN/">
    ```
 ## 👤 Author
 
@@ -102,4 +103,4 @@ Untuk latihan, portofolio, dan studi kasus laporan keuangan berbasis web.
 
 ⭐ Jangan lupa kasih star kalau project ini bermanfaat!
 
-</div> ```
+</div>
