@@ -88,10 +88,6 @@ manajemen-kas-keuangan/
 
 ---
 
-## 🌍 Live Demo
-
-   <a href="https://pasyaawannn.github.io/LAPORAN-KEUANGAN/">
-
 ## 👤 Author
 
 Project dibuat oleh Pasya Awan Rizky Saputro (250202959)
