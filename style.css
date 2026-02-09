@@ -1,0 +1,212 @@
+/* =======================
+   GLOBAL STYLE
+======================= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f7fb;
+  transition: 0.3s;
+}
+
+header {
+  background: #1e5bd8;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* DARK MODE BUTTON */
+#darkToggle {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* =======================
+   CONTAINER
+======================= */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+/* =======================
+   DASHBOARD CARDS
+======================= */
+.cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.saldo { background: #2ecc71; }
+.masuk { background: #3498db; }
+.keluar { background: #e74c3c; }
+
+/* =======================
+   BOX SECTION
+======================= */
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.box h2 {
+  margin-top: 0;
+}
+
+/* =======================
+   FILTER
+======================= */
+.filter {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* =======================
+   FORM STYLE
+======================= */
+form {
+  display: grid;
+  gap: 12px;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+button {
+  background: #1e5bd8;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover {
+  background: #1746a8;
+}
+
+/* =======================
+   TABLE STYLE
+======================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.action-btn {
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.edit-btn {
+  background: orange;
+}
+
+.hapus-btn {
+  background: red;
+}
+
+/* =======================
+   CHART STYLE
+======================= */
+canvas {
+  max-width: 500px;
+  max-height: 250px;
+}
+
+
+/* =======================
+   DARK MODE
+======================= */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark header {
+  background: #000;
+}
+
+.dark .box {
+  background: #1e1e1e;
+  color: white;
+}
+
+.dark input,
+.dark select {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark table th,
+.dark table td {
+  border-color: #444;
+}
+
+.chart-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 20px;
+  align-items: start;
+}
+
+.chart-box {
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.chart-box canvas {
+  width: 100% !important;
+  max-height: 200px;
+}
