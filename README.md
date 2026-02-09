@@ -12,8 +12,6 @@ Dashboard Laporan Keuangan Sederhana Berbasis Web
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
----
-
 </div>
 
 ---
